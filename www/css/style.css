@@ -1,0 +1,359 @@
+/*
+ *  Icons
+*/
+
+i.icon.icon-psetzen {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i/i-set-ios.svg);
+}
+
+i.icon.icon-center {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i/i-center-ios.svg);
+}
+
+i.icon.icon-info {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i/i-info-ios.svg);
+}
+
+i.icon.icon-options-sm {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/i/i-options-ios.svg);
+}
+
+i.icon.icon-options {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i/i-options-ios.svg);
+}
+
+i.icon.icon-map {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i/i-map-ios.svg);
+}
+
+i.icon.icon-camera {
+    width: 29px;
+    height: 29px;
+    background-image: url(../img/i/i-camera-ios.svg);
+}
+
+i.icon.icon-pin-small {
+    width: 17px;
+    height: 17px;
+    vertical-align: text-top;
+    background-image: url(../img/i/i-pin-sm.svg);
+}
+
+i.icon.icon-guide {
+    width: 29px;
+    height: 29px;
+    vertical-align: text-top;
+    background-image: url(../img/i/i-guide-ios.svg);
+}
+
+i.icon.icon-login {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-top;
+    background-image: url(../img/i/i-login-ios.svg);
+}
+
+i.icon.icon-logout {
+    width: 29px;
+    height: 29px;
+    vertical-align: text-top;
+    background-image: url(../img/i/i-logout-ios.svg);
+}
+
+i.icon.icon-tracking {
+    width: 29px;
+    height: 29px;
+    vertical-align: text-top;
+    background-image: url(../img/i/i-tracking-ios.svg);
+}
+
+i.icon.icon-tracking-inv {
+    width: 29px;
+    height: 29px;
+    vertical-align: text-top;
+    background-image: url(../img/i/i-tracking-inv-ios.svg);
+}
+
+i.icon.icon-layers {
+    width: 29px;
+    height: 29px;
+    vertical-align: text-top;
+    background-image: url(../img/i/i-layers-ios.svg);
+}
+
+.survey .clr {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    width: 44px;
+    height: 44px;
+    padding: 2px;
+    margin-left: calc(50% - 22px);
+}
+
+/*
+ *
+*/
+
+.survey .clr > .item-inner:after, .survey .smbl > .item-inner:after, .point .item-divider:nth-child(2):before  {
+    height: 0;
+}
+
+.row .icon {
+    margin-left: calc(50% - 10px);
+}
+
+.survey .col-25 img {
+    width: 29px !important;
+    position: relative;
+    left: calc(50% - 14.5px);
+}
+
+.survey .matrix > .row:nth-child(4n-2), .survey .matrix > .row:nth-child(4n-1) {
+    background-color: #f7f7f7;
+}
+
+.survey .matrix .col-50:first-child, .survey .matrix .col-100 {
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.survey .matrix .col-50:last-child {
+    box-sizing: border-box;
+    padding-right: 5px;
+}
+
+.survey .badge {
+    background-color: #007aff;
+}
+
+.survey .item-divider, .info .content-block-title {
+    white-space: normal;
+}
+
+.survey .popover img {
+    width: 25px;
+    height: auto;
+}
+
+.popover {
+    width: 150px;
+}
+
+.survey ul li .row {
+    padding: 5px 0;
+}
+
+.projects img {
+    border-radius: 5px;
+}
+
+.projects .badge, .point .badge {
+    background-color: #2196f3;
+}
+
+.projects .access {
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    margin-right: 0.25em;
+    border: 1px solid #d8d8d8;
+    border-radius: 50%;
+    line-height: 0.3em;
+}
+
+div.login .content-block-title {
+    text-transform: none;
+    white-space: normal;
+}
+
+div.login span {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+div.login .list-block-label {
+    text-align: center;
+}
+
+div.login div.page-content {
+    background-color: #e4ddce;
+    background-image: url(../img/background_bottom.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.map #map {
+    width: 100vw;
+    height: calc(100vh - 88px);
+}
+
+.map #layers {
+    color: white;
+}
+
+.picker-layers .item-title {
+    width: 50% !important;
+}
+
+.login .toolbar, .login .toolbar-inner, .login .tabbar-label {
+    background: transparent;
+    color: white;
+}
+
+.login .toolbar:before {
+    height: 0;
+}
+
+.navbar, .statusbar-overlay, .toolbar {
+    background-color: #b19a79;
+    color: white;
+}
+
+.navbar:after {
+    background-color: #746451;
+    height: 1px;
+}
+
+.point .page-content > .list-block {
+    margin-top: 0;
+}
+
+.point .item-divider.small {
+    text-align: right;
+    font-size: 0.5em;
+}
+
+.point .page-content ul > .row div {
+    border-bottom: 1px solid #ddd;
+    font-size: 0.66em;
+}
+
+.point span {
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.point .item-content .row {
+    width: 100%;
+}
+
+.point .accordion-item-expanded .item-text {
+    height: auto;
+    min-height: 42px;
+    -webkit-line-clamp: 1000 !important;
+}
+
+.point .item-divider {
+    white-space: normal;
+}
+
+.point .radio-select {
+    background-color: #ddd;
+}
+
+.point .radio-select text, .point .radio-select-pie text {
+    fill: white;
+}
+
+.point .radio-select rect, .point .matrix rect, .point .radio-select-pie path {
+    stroke: white;
+    stroke-width: 2;
+}
+
+.point .content-block-inner .row:not(:last-child) .col-auto {
+    border-bottom: #ddd solid 1px;
+}
+
+.point .tagcloud ul {
+    padding: 0;
+}
+
+.point .tagcloud ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.point .matrix line {
+    stroke: black;
+    stroke-dasharray: 2.5;
+    stroke-width: 0.5;
+}
+
+.point .matrix .result path {
+    stroke: black;
+    stroke-width: 2;
+    fill: none;
+}
+
+.point .matrix .result circle {
+    stroke: black;
+    stroke-width: 2;
+    fill: white;
+}
+
+.point .matrix .poly path {
+    stroke: none;
+}
+
+.point .matrix .left text, .point .matrix .right text {
+    font-size: 75%;
+    paint-order: stroke;
+    stroke: white;
+    stroke-width: 2;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+}
+
+.info .subnavbar {
+    background-color: orange;
+}
+
+.info .subnavbar .button:not(.active) {
+    background-color: white;
+}
+
+.info.with-subnavbar {
+    padding-top: 44px;
+}
+
+/*
+ *  Survey Help
+*/
+
+div.panel {
+    background-color: #746451;
+}
+
+div.panel div.content-block,
+div.panel div.content-block-title {
+    color: white;
+}
+
+div.panel div.content-block figure {
+    margin: 14px;
+}
+
+div.panel div.content-block figcaption {
+    font-style: italic;
+}
+
+li.guide {
+    background-color: #e4ddce;
+}
